@@ -66,5 +66,5 @@ sudo systemctl restart mariadb
 # 설치 완료 안내 문구
 clear
 cd
-sudo rm -rf ./goodee
+sudo rm -rf ./lightsail-ubuntu
 echo '### INSTALL COMPLETE ###'

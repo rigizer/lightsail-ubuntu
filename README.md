@@ -57,6 +57,7 @@ cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x light
 
 3. 원하는 인스턴스 플랜을 선택한 뒤, 인스턴스 이름을 지정합니다.
   - 여기서는 예시로, $3.5짜리 [512MB RAM/1 vCPU, 20GB SSD, 1TB Up/Down Traffic] 플랜을 선택했습니다.
+  - Tomcat9, MariaDB 10을 사용하기 위해, ```최소 $5 이상 플랜 이상```을 사용하는 것을 권장합니다.
 <img src="https://user-images.githubusercontent.com/68414303/202436284-4be15a56-4810-477d-b5e9-6861978aab71.png" width="600px"/>
 
 <br/>

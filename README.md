@@ -31,6 +31,17 @@ cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x light
 
 <br/>
 
+- AWS Lightsail 사용중 ```로그인에 실패했습니다```
+  + 인스턴스가 생성된지 얼마 되지 않아서 그렇습니다. OS가 설치될 때 까지 몇 분만 더 기다려주세요.
+<img src="https://user-images.githubusercontent.com/68414303/202459518-4e6fd16c-e6fb-41e0-81ac-25511e6740ef.png" width="600px"/>
+
+<br/>
+
+- 터미널에 ```EEEEEEEEEE...```가 계속 나옵니다.
+  + ```Ctrl + C```를 누르고 ```clear``` 명령을 이용하여 터미널 화면을 정리합니다.
+
+<br/>
+
 # lightsail-ubuntu 상세 사용방법
 
 1. AWS에 접속하여 로그인 후 Lightail 페이지를 접속합니다.

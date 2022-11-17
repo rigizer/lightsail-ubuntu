@@ -14,7 +14,7 @@ cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x light
 <br/>
 
 # lightsail-ubuntu 스크립트 세부설정
-- 미러서버 변경 ```카카오 서버, https://mirror.kakao.com```
+- 미러서버 변경 ```카카오 서버, mirror.kakao.com```
 - apt 리스트 업데이트 ```sudo apt-get update```
 - apt 리스트 업그레이드 ```sudo apt-get upgrade```
 

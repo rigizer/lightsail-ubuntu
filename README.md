@@ -18,9 +18,13 @@ cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x light
 - apt 리스트 업데이트 ```sudo apt-get update```
 - apt 리스트 업그레이드 ```sudo apt-get upgrade```
 
+<br/>
+
 - tomcat9 설치, open-jdk11 설치
 - tomcat9 포트변경 ```8080 -> 80```
 - webapps 폴더 권한변경 ```777, rwxrwxrwx```
+
+<br/>
 
 - MariaDB 설치
 - MariaDB 외부접속 설정 ```127.0.0.1 -> 0.0.0.0```

@@ -1,4 +1,6 @@
 # lightail-ubuntu 한줄 명령어
+- 복사 후, SSH 클라이언트에 ```마우스를 이용해서 붙여넣기``` 하세요. ```Ctrl + V 사용불가```
+- 설치가 끝난 경우, ```INSTALL COMPLETE```이 뜨면서, 설정이 완료됩니다.
 ```
 cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x lightsail-ubuntu && ./lightsail-ubuntu/install.sh
 ```
@@ -87,6 +89,6 @@ cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x light
 
 <br/>
 
-10. 설치가 완료되었다면, ```INSTALL COMPLETE```이 뜨면서, 설치가 완료됩니다.
+10. 설치가 끝난 경우, ```INSTALL COMPLETE```이 뜨면서, 설정이 완료됩니다.
 <img src="https://user-images.githubusercontent.com/68414303/202444980-469b9a81-69b3-49a4-92f8-07a3d2ca5b4c.png" width="500px"/>
 

@@ -4,6 +4,12 @@
 ```
 cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x lightsail-ubuntu && ./lightsail-ubuntu/install.sh
 ```
+- mariadb 사용시 mysql/mariadb에 대응되는 데이터베이스 접속 클라이언트를 이용하세요
+  + 포트번호 ```3306```
+  + 아이디 ```root```
+  + 비밀번호 ```ssafy0708```
+- tomcat 사용시 ```80```포트를 이용하도록 설정했습니다.
+  + jar 혹은 war 파일을 ```filezilla```와 같은 ftp 클라이언트를 이용해 ```/var/lib/tomcat9/webapps``` 디렉토리에 업로드하세요 (777, rwxrwxrwx)
 
 <br/>
 
@@ -39,6 +45,14 @@ cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x light
 
 - 터미널에 ```EEEEEEEEEE...```가 계속 나옵니다.
   + ```Ctrl + C```를 누르고 ```clear``` 명령을 이용하여 터미널 화면을 정리합니다.
+
+- Filezilla를 이용하여 AWS Lightsail에 파일을 어떻게 업로드하나요?
+  + ```Filezilla```를 다운로드 한 후, 사이트 관리자를 켭니다
+  + 새 사이트를 누르고, 프로토콜을 SFTP로 변경한 후, 호스트에 우분투 인스턴스에 할당된 IP를 입력합니다 (포트번호 22)
+  + 로그온 유형을 키 파일로 변경한 후, 사용자는 ubuntu를 입력합니다
+  + 키 파일은 우분투 인스턴스에 할당된 private key를 다운받고, pem 형식으로 작성된 키를 ppk 형식으로 변환하여, 키 파일에 등록한 후 확인을 누릅니다
+    * pem 키를 ppk 키로 변환하기 위해, [```PuTTY Key Generator```](https://macmini.tistory.com/7)를 이용합니다.
+<img src="https://user-images.githubusercontent.com/68414303/202462341-0fbea10c-31d1-4ed9-ba11-d8cf25479ab5.png" width="600px"/>
 
 <br/>
 

@@ -54,9 +54,10 @@ cd && git clone https://github.com/rigizer/lightsail-ubuntu && chmod -R +x light
   + ```Filezilla```를 다운로드 한 후, 사이트 관리자를 켭니다
   + 새 사이트를 누르고, 프로토콜을 SFTP로 변경한 후, 호스트에 우분투 인스턴스에 할당된 IP를 입력합니다 (포트번호 22)
   + 로그온 유형을 키 파일로 변경한 후, 사용자는 ubuntu를 입력합니다
-  + 키 파일은 우분투 인스턴스에 할당된 private key를 다운받고, pem 형식으로 작성된 키를 ppk 형식으로 변환하여, 키 파일에 등록한 후 확인을 누릅니다
-    * pem 키를 ppk 키로 변환하기 위해, [```PuTTY Key Generator```](https://macmini.tistory.com/7)를 이용합니다.
+  + 키 파일은 우분투 인스턴스에 할당된 private key를 다운받고, pem 형식으로 작성된 키를 선택한 후 확인을 누릅니다
+    * pem키를 찾을 때 확장자를 ppk 대신 pem으로 선택 후 파일탐색기에서 선택합니다.
 <img src="https://user-images.githubusercontent.com/68414303/202462341-0fbea10c-31d1-4ed9-ba11-d8cf25479ab5.png" width="600px"/>
+<img src="https://user-images.githubusercontent.com/68414303/202587032-3bb2fb3c-b336-4cfb-a800-248b4526efec.png"/>
 
 <br/>
 

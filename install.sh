@@ -63,6 +63,10 @@ sudo sed -i '$s/$/\n\n[mysqld]\ndefault-time-zone='+9:00'/g' /etc/mysql/mariadb.
 echo '### MARIADB RESTART ###'
 sudo systemctl restart mariadb
 
+# 우분투 서버의 서버시간을 한국 표준시로 변경
+echo '### SET TIMEZONE ASIA/SEOUL ###'
+sudo timedatectl set-timezone Asia/Seoul
+
 # 설치 완료 안내 문구
 clear
 cd
